@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #ff6600;
+    background-color: #002aff;
     color: white;
     padding: 10px 20px;
     display: flex;
@@ -21,6 +21,9 @@ header .logo {
 
 header .logo img {
     height: 50px;
+    width: 50px; /* Ensure it's a perfect square */
+    border-radius: 50%; /* Makes it a circle */
+    object-fit: cover; /* Ensures the image fits well */
     margin-right: 10px;
 }
 
@@ -45,7 +48,7 @@ section {
 }
 
 section#home {
-    background-color: #ffe6cc;
+    background-color: #ccf4ff;
     text-align: center;
     padding: 50px 20px;
 }
@@ -81,7 +84,7 @@ section#home {
 }
 
 .product button {
-    background-color: #ff6600;
+    background-color: #001aff;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -91,7 +94,7 @@ section#home {
 }
 
 .product button:hover {
-    background-color: #e65c00;
+    background-color: #0800e6;
 }
 
 #cart ul {
@@ -107,6 +110,6 @@ section#home {
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #ff6600;
+    background-color: #1500ff;
     color: white;
 }
